@@ -1,0 +1,20 @@
+POST localhost:8080/person//savePerson
+Content-Type: application/json
+
+{
+  "name": "user",
+  "email": "user@mail.ru",
+  "password": "password",
+  "age": "20",
+  "phoneNumber": "9032325956"
+}
+
+###
+
+GET localhost:8080/auth/sighIn
+Content-Type: application/json
+
+{
+  "email": "user@mail.ru",
+  "password": "password"
+}

@@ -1,2 +1,4 @@
-package com.example.final_project.controllers;public class PersonController {
+package com.example.final_project.mappers.controllers;
+
+public class PersonController {
 }
