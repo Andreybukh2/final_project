@@ -1,16 +1,14 @@
-package com.example.final_project.servicesimpl;
+package com.example.final_project.servicesImpl;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.example.final_project.models.Person;
 import com.example.final_project.services.JwtTokenService;
-import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
 import java.time.ZonedDateTime;
-import java.util.Date;
 
 @Service
 @RequiredArgsConstructor

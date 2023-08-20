@@ -1,10 +1,10 @@
-package com.example.final_project.servicesimpl;
+package com.example.final_project.servicesImpl;
 
 import com.example.final_project.DTO.PersonDto;
 import com.example.final_project.mappers.PersonMapper;
 import com.example.final_project.models.Person;
 import com.example.final_project.models.Role;
-import com.example.final_project.reposetories.PersonRepository;
+import com.example.final_project.repositories.PersonRepository;
 import com.example.final_project.services.PersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -20,7 +20,6 @@ public class PersonServiceImpl implements PersonService {
     private final PersonRepository personRepository;
     private final PersonMapper personMapper;
     private final PasswordEncoder passwordEncoder;
-
 
     @Override
     public PersonDto savePerson(PersonDto personDto) {

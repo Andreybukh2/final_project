@@ -1,0 +1,22 @@
+POST localhost:8080/person//savePerson
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFuZHJleUB5YS5ydSIsIm5hbWUiOiJBbmRyZXkiLCJhZ2UiOjI1LCJwaG9uZSI6Iis3IDkwMyAyNTItMTMtMTUiLCJyb2xlIjoiVVNFUiIsImV4cCI6MTY5MjMwNTU3MH0.ke59Dl_G45k6Fw2je1hmVHnn8BvsVQQye9xxHLIy7fU
+Content-Type: application/json
+
+{
+  "name": "Alex3",
+  "email": "Alex3@hotmail.com",
+  "password": "password",
+  "age": "25",
+  "phoneNumber": "+7 903 558-56-25"
+}
+
+
+###
+
+GET localhost:8080/auth/signIn
+Content-Type: application/json
+
+{
+  "email": "Andrey@ya.ru",
+  "password": "2510"
+}

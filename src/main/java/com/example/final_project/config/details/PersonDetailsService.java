@@ -2,7 +2,7 @@ package com.example.final_project.config.details;
 
 import com.example.final_project.exceptions.PersonNotFoundException;
 import com.example.final_project.models.Person;
-import com.example.final_project.reposetories.PersonRepository;
+import com.example.final_project.repositories.PersonRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.*;
 

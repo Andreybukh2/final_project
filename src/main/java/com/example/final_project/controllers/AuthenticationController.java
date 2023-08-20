@@ -13,7 +13,7 @@ public class AuthenticationController {
 
     private final AuthenticationService authenticationService;
 
-    @GetMapping("/sighIn")
+    @GetMapping("/signIn")
     public ResponseEntity<String> authenticate(@RequestBody AuthDto authDto){
         return ResponseEntity.ok().body(authenticationService.authenticate(authDto));
     }
