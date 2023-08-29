@@ -1,0 +1,13 @@
+POST localhost:8080/book/saveBook
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFuZHJleUB5YS5ydSIsIm5hbWUiOiJBbmRyZXkiLCJhZ2UiOjI1LCJwaG9uZSI6Iis3IDkwMyAyNTItMTMtMTUiLCJyb2xlIjoiQURNSU4ifQ.n1AQZVWGAUyxgjGt9ZPY-M9yissbf_VN0-9G7by3zdk
+Content-Type: application/json
+
+{
+  "name": "Book30",
+  "yearOfProduction": 2016,
+  "author": "Author2",
+  "annotation": "Some annotation about Book30"
+}
+
+
+###

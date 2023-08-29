@@ -1,0 +1,13 @@
+POST http://localhost:8080/book/updateBook/4
+Authorization: Bearer
+Content-Type: application/json
+
+{
+  "name": "UPDATE04",
+  "yearOfProduction": 2023,
+  "author": "Author6",
+  "annotation": "Some annotation for UPDATE04"
+}
+
+
+###

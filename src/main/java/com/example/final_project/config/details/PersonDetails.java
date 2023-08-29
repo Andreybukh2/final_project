@@ -11,7 +11,6 @@ import java.util.Collections;
 
 @RequiredArgsConstructor
 public class PersonDetails implements UserDetails {
-
     private final Person person;
 
     @Override

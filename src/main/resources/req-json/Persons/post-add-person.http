@@ -1,0 +1,14 @@
+POST localhost:8080/person/savePerson
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFkbWluQHlhaG9vLmNvbSIsIm5hbWUiOiJBZG1pbiIsImFnZSI6MjIsInBob25lIjoiKzcgOTAzIDMzMy00NC01NSIsInJvbGUiOiJBRE1JTiJ9.PhjYt5bIKrwGQpdr4FR5Oh-mT1NMJWS8QQhgi2LYRk4
+Content-Type: application/json
+
+{
+  "name": "Person100",
+  "age": "37",
+  "email": "Person100@yahoo.com",
+  "phoneNumber": "+7957 323-45-57",
+  "password": "password"
+}
+
+
+###

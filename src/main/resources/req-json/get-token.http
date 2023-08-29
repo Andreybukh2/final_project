@@ -1,0 +1,7 @@
+GET localhost:8080/auth/signIn
+Content-Type: application/json
+
+{
+  "email": "Admin@yahoo.com",
+  "password": "password"
+}

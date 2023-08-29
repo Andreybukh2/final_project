@@ -1,5 +1,6 @@
 package com.example.final_project.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -27,5 +28,6 @@ public class Book {
     private String removedPerson;
 
     @ManyToOne
+    @JsonIgnore
     private Person person;
 }

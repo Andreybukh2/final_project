@@ -26,7 +26,7 @@ public class JwtTokenServiceImpl implements JwtTokenService {
                 .withClaim("age", person.getAge())
                 .withClaim("phone", person.getPhoneNumber())
                 .withClaim("role", person.getRole().name())
-                .withExpiresAt(date)
+                //.withExpiresAt(date)
                 .sign(Algorithm.HMAC256("SecretKey"));
     }
 }

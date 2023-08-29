@@ -1,0 +1,3 @@
+POST localhost:8080/book/take/5
+Authorization: Bearer
+Content-Type: application/json
